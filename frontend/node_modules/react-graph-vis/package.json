@@ -1,0 +1,40 @@
+{
+  "name": "react-graph-vis",
+  "version": "1.0.7",
+  "description": "A react component to render nice graphs using vis.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib/ src/",
+    "watch": "babel --watch -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crubier/react-graph-vis.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "graph",
+    "network",
+    "jsx"
+  ],
+  "author": "Vincent Lecrubier <vincent.lecrubier@gmail.com> (https://crubier.github.io/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "prop-types": "^15.5.10",
+    "uuid": "^2.0.1",
+    "vis-data": "^7.1.2",
+    "vis-network": "^9.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-stage-3": "^6.22.0"
+  }
+}
